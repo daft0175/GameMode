@@ -7,7 +7,7 @@ import (
 )
 
 type GameMode struct {
-	Number int
+	Number int `cmd:"gameMode"`
 }
 
 func (gm GameMode) Run(source cmd.Source, output *cmd.Output) {
